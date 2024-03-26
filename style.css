@@ -1,0 +1,91 @@
+.logo-title {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+}
+
+.h1-title {
+    /* display-4 fw-bold lh-1 text-body-emphasis */
+    font-family: 'Lobster', sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+
+.title-paragraph{
+    font-family: 'Yrsa', serif;
+}
+
+#navegation .nav-link {
+    color: #000000; 
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+  }
+
+.barber-img {
+    border-radius: 50%;
+}
+
+.title-h2{
+    font-family: 'Lobster', sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #52616B, #C9D6DF, #E8E8E8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .image-h2{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+  }
+
+  #title .btn-title {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+  }
+
+  #Precios .btn-title {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+  }
+
+  .general-paragraph{
+    font-family: 'Yrsa', serif;
+    font-size: 18px;
+  }
+
+  .title-h4 {
+    font-family: 'Amaranth', sans-serif;
+  }
+
+  .important-element {
+    color: #393E46;
+  }
+
+  span{
+    color: #393E46;
+  }
+
+  .img-style{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #393E46 ; /* Ancho y color del borde */
+    border-radius: 10px;   /* Radio de las esquinas redondeadas */
+  }
+
